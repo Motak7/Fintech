@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech Zenite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <nav class="main-nav">
+        <div class="nav-links">
+            <a href="#" class="nav-item active"><div class="nav-icon"><img src="img/Home.png" alt="Home"></div><span>Home</span></a>
+            <a href="#" class="nav-item"><div class="nav-icon"><img src="img/Bag.png" alt="Cartões"></div><span>Cartões</span></a>
+            <a href="#" class="nav-item"><div class="nav-icon"><img src="img/Grid.png" alt="Investir"></div><span>Investir</span></a>
+            <a href="#" class="nav-item"><div class="nav-icon"><img src="img/User.png" alt="Perfil"></div><span>Perfil</span></a>
+        </div>
+        <div class="sidebar-footer">
+            <a href="#" class="nav-item support-item"><div class="nav-icon"><img src="img/Noti.png" alt="Suporte"></div><span>Suporte</span></a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <header class="animate-on-load">
+            <div class="header-text">
+                <h1>Dashboard</h1>
+                <p>Olá novamente, Ana Oliveira</p>
+            </div>
+            <a href="#"><img src="img/Avatar.png" alt="Foto do Perfil" class="profile-pic"></a>
+        </header>
+
+        <div class="content-grid">
+            <div class="grid-col-left">
+                <section class="widget-panel animate-on-load" id="saldo-card">
+                    <div class="card-glare"></div>
+                    <div class="card-header"><span>Saldo Disponível</span><img src="img/Visa.png" alt="Logo Visa"></div>
+                    <div class="saldo-valor">R$ 8.743,59</div>
+                    <div class="card-details"><span class="card-number">**** 1234</span><a href="#" class="card-action">Ver extrato &rarr;</a></div>
+                </section>
+
+                <section class="widget-panel animate-on-load" id="atividade-recente">
+                    <div class="section-header"><h2>Atividade Recente</h2><a href="#" class="see-all">Ver tudo</a></div>
+                    <ul class="activity-list">
+                        <li class="activity-item"><div class="activity-icon"><img src="img/Bag.png" alt="Compra"></div><div class="activity-details"><span>Apple Store</span><span>Compra Online</span></div><div class="activity-amount expense">- R$ 1.299,00</div></li>
+                        <li class="activity-item"><div class="activity-icon"><img src="img/User.png" alt="Transferência"></div><div class="activity-details"><span>Transferência Recebida</span><span>de Carlos Souza</span></div><div class="activity-amount income">+ R$ 350,00</div></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="grid-col-right">
+                <section class="widget-panel animate-on-load" id="quick-actions">
+                     <h2 class="section-title">Ações Rápidas</h2>
+                     <div class="action-buttons-container">
+                        <a href="#" class="action-button primary"><img src="img/User.png" alt="Enviar"> Enviar</a>
+                        <a href="#" class="action-button secondary"><img src="img/Pix.png" alt="Adicionar"> Adicionar</a>
+                     </div>
+                </section>
+
+                <section class="widget-panel animate-on-load" id="meus-cartoes">
+                    <h2 class="section-title">Meus Cartões</h2>
+                    <div class="card-carousel"><div class="mini-card active">Virtual</div><div class="mini-card">Físico</div><div class="mini-card add-new">+</div></div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
